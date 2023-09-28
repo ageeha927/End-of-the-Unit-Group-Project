@@ -1,5 +1,6 @@
 body{
-   
+    background-image: url(../colorful-stingrays.svg);
+    background-size: cover;
 }
 .logo{
     text-decoration-color: black;
