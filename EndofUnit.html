@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Floating Friends | List of Services</title>
+    <meta name="author" content="Audrey Geehan, Daniel Freeman">
+    <meta name=”description” content="Rubber Ducky Business">
+    <meta property=”og:image” content="https://cdn11.bigcommerce.com/s-nf2x4/images/stencil/1280x1280/products/307/9994/muscle-builder-Rubber-Duck-Adline-1__83749.1676125242.jpg?c=2">
+    <meta property=”og:description” content="Rubber-duck">
+    <meta property=”og:title” content="RubberDucks">
+    <link rel="stylesheet" type="text/css" href="../Desktop/duck(home).css">
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.checked {
+  color: orange;
+}
+</style>
+</head>
+
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">Gallery Page</a></li>
+            <li><a href="file:///C:/Users/dfreem367/Desktop/EndofUnit.html#gallerypage">List of Services</a></li>
+            <li><a href="">Ordering Service</a></li>
+        </ul>
+    </nav>
+    <h2>FAQS</h2>
+    <button class="accordion">What is Floating Friends?
+    </button>
+    <div class="panel">
+      <p>Floating Friends is a company founded in 2023 by owners Audrey Geehan and Daniel Freeman, specializing in selling rubber ducks</p>
+    </div>
+    <button class="accordion">Are there special requests that people can ask for?</button>
+    <div class="panel">
+      <p>Floating Friends delivers any amount of rubber ducks to any location but otherwise there are no special requests</p>
+    </div>
+    <button class="accordion">What kind of pricing does Floating Friends offer?</button>
+    <div class="panel">
+      <p>The prices are set at $0.50 per individul rubber duck and $0.8 to $1.2 per mile for delivery</p>
+    </div>
+    <button class="accordion">How can I contact the company?</button>
+    <div class="panel">
+      <p>You can reach us through either Email or Phone Number</p>
+        <form>
+            <form action="" method="post">
+                <h1 style="color:white">Contact Us</h1>
+                <a  class="a1" href="mailto:danielfree756@gmail.com">Send us an email</a>
+                <a class="a1" href="tel:6232188463">Phone (+1)623-218-8463</a>
+                <hr>
+            </form>
+        </form>
+    </div>
+
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+        
+        for (i = 0; i < acc.length; i++) {
+          acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+              panel.style.display = "none";
+            } else {
+              panel.style.display = "block";
+            }
+          });
+        }
+        </script>
+        <legend>
+            <fieldset>
+                <h1 class="testimonials">Testimonials From Customers</h1>
+                <h2 class="reviews">"William Prescott the 3rd"
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                </h2>
+                <h3 class="review">"I am most definitely satisfied with my service bro"</h3>
+            </fieldset>
+        </legend>
+        <legend>
+            <fieldset>
+                <h1 class="testimonials">Testimonials From Customers</h1>
+                <h2 class="reviews">"Geoffrey Youngins"
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                </h2>
+                <h3 class="review">"I've desperately been wanting to take a bath full up rubber ducks and Floating Friends made my dream come true :)"</h3>
+            </fieldset>
+        </legend>
+        <legend>
+            <fieldset>
+                <h1 class="testimonials">Testimonials From Customers</h1>
+                <h2 class="reviews">"Jaylen Brown"
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                </h2>
+                <h3 class="review">"I ordered 1000 Rubber Ducks to be delivered within a week for my nephews wedding and they were aboslute dumpster fire on punctuation!"</h3>
+            </fieldset>
+        </legend>
+
+</body>
+
+</html>
