@@ -1,4 +1,4 @@
-@ -1,25 +1,26 @@
+
 body{
    
     background-image: url(../colorful-stingrays.svg);
@@ -26,3 +26,4 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color:rgb(33, 33, 33);
+}
