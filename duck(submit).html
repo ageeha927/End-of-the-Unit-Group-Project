@@ -18,8 +18,8 @@
             <ul>
                 <li><a href="">Home</a></li>
                 <li><a href="">Gallery Page</a></li>
-                <li><a href="file:///C:/Users/dfreem367/Desktop/EndofUnit.html#gallerypage">List of Services</a></li>
-                <li><a href="file:///C:/Users/dfreem367/Desktop/duck(submit).html">Ordering Service</a></li>
+                <li><a href="./EndofUnit.html">List of Services</a></li>
+                <li><a href="./duck(submit).html">Ordering Service</a></li>
             </ul>
         </nav>
         <form action="" method="post">
@@ -28,7 +28,7 @@
             <h2>Contact Information</h2>
               <p>
                 <label for="name">
-                  <span>Name:</span>
+                  <span>Full-Name:</span>
                   <strong><abbr title="required">*</abbr></strong>
                 </label>
                 <input type="text" id="name" name="username">
@@ -77,21 +77,27 @@
                 <span>Order Quanity:</span>
                 <strong><abbr title="required">*</abbr></strong>
               </label>
-              <input type="tel" id="number" name="cardnumber">
+              <input type="tel" id="number" name="ducknumber">
             </p>
             <p>
-                <label for="number">
+                <label for="address">
                   <span>Shipping Address:</span>
                   <strong><abbr title="required">*</abbr></strong>
                 </label>
-                <input type="tel" id="number" name="cardnumber">
+                <input type="tel" id="address" name="addressshipping">
               </p>
               <p>
-                <input type="submit" value="Submit">
+                <input type="submit" onclick="clicked(event)" />
               </p>
-
           </section>
         </form>
-
+        <script>
+          function clicked(e)
+          {
+              if(!confirm('You have successfully submitted your order')) {
+                  e.preventDefault();
+              }
+          }
+          </script>
 </body>
 </html>
