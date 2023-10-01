@@ -1,0 +1,10 @@
+.grid-container {
+    display: grid;
+    grid-template:
+      'nav nav nav nav nav'
+      'space space video space space'
+      'space pic pic pic space'
+      'space pic pic pic space';
+  }
+
+  
