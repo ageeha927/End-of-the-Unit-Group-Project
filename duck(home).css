@@ -1,5 +1,12 @@
+<<<<<<< HEAD
 -body{
     background-image: url(../colorful-stingrays.svg);
+=======
+
+body{
+   
+    background-image: url(./radiant-gradient.svg);
+>>>>>>> e94c64ad9784d598e94549c1184ad478d7a470e2
     background-size: cover;
 }
 .logo{
@@ -24,6 +31,33 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color:rgb(33, 33, 33);
+<<<<<<< HEAD
+=======
+}
+
+.logo{
+    text-decoration-color: black;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-weight: bold;
+    font-style: italic;
+    font-size: medium;
+}
+footer{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:rgb(33, 33, 33);
+    color: #fff;
+    padding-left: 2rem;
+}
+ul {
+    /* position: fixed; */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:rgb(33, 33, 33);
+>>>>>>> e94c64ad9784d598e94549c1184ad478d7a470e2
     position: relative;
     bottom: 6px;
 }
@@ -50,4 +84,11 @@ li a {
     position: relative;
     left: 24%;
     border:5px solid rgb(0, 0, 0);
+<<<<<<< HEAD
+=======
+}
+a:hover{
+    font-size:larger;
+    color:aqua;
+>>>>>>> e94c64ad9784d598e94549c1184ad478d7a470e2
 }
