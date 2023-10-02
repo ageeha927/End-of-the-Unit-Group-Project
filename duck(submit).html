@@ -27,11 +27,18 @@
             <p>Required fields are followed by<strong><abbr title="required">*</abbr></strong></p>
             <h2>Contact Information</h2>
               <p>
-                <label for="name">
-                  <span>Full-Name:</span>
+                <label for="fname">
+                  <span>First Name:</span>
                   <strong><abbr title="required">*</abbr></strong>
                 </label>
-                <input type="text" id="name" name="username">
+                <input type="text" id="fname" name="fname">
+              </p>
+              <p>
+                <label for="lname">
+                  <span>Last Name:</span>
+                  <strong><abbr title="required">*</abbr></strong>
+                </label>
+                <input type="text" id="lname" name="lname">
               </p>
               <p>
                 <label for="mail">
@@ -47,6 +54,27 @@
                 </label>
                 <input type="password" name="password" id="pwd">
               </p>
+              <p>
+                <label for="state">
+                  <span>State:</span>
+                  <strong><abbr title="required">*</abbr></strong>
+                </label>
+                <input type="state" name="state" id="state">
+              </p>
+              <p>
+                <label for="city">
+                  <span>City:</span>
+                  <strong><abbr title="required">*</abbr></strong>
+                </label>
+                <input type="city" name="city" id="city">
+              </p>
+              <p>
+                <label for="zip">
+                  <span>Zip Code:</span>
+                  <strong><abbr title="required">*</abbr></strong>
+                </label>
+                <input type="zip" name="zip" id="zip">
+              </p>
               <selection>
               <h2>Payment Information</h2>
               <p>
@@ -56,8 +84,8 @@
                 <select name="usercard" id="card">
                   <option value="Visa">Visa</option>
                   <option value="Mastercard">Mastercard</option>
-                  <option value="Amex">Amex</option>
-                  <option value="CapitolOne">CapitalOne</option>
+                  <option value="Discovers">Discover</option>
+                  <option value="AmericanExpress">American Express</option>
                 </select>
               </p>
               <p>
@@ -85,6 +113,12 @@
                   <strong><abbr title="required">*</abbr></strong>
                 </label>
                 <input type="tel" id="address" name="addressshipping">
+              </p>
+              <p>
+                <label for="apartment">
+                  <span>Apartment, Suite number, etc(optional)</span>
+                </label>
+                <input type="tel" id="apartment" name="apartmentshipping">
               </p>
               <p>
                 <label for="birthday">Birthday:</label>
