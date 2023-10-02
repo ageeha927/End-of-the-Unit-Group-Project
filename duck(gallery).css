@@ -1,10 +1,15 @@
-.grid-container {
-    display: grid;
-    grid-template:
-      'nav nav nav nav nav'
-      'space space video space space'
-      'space pic pic pic space'
-      'space pic pic pic space';
+body{
+  display: grid;
+  grid-template-columns:[yy] 1fr [R] 1fr [B] 1fr [G];
+  grid-template-rows: 10% 1fr 1fr 1fr 20% [last];
+}
+
+  nav{
+    grid-column: yy / G ;
+    float: left;
   }
 
-  
+  footer{
+    grid-column: yy / G;
+    grid-row: last;
+  }
