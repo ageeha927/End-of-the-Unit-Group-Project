@@ -1,12 +1,6 @@
-<<<<<<< HEAD
--body{
-    background-image: url(../colorful-stingrays.svg);
-=======
 
-body{
-   
+-body{
     background-image: url(./radiant-gradient.svg);
->>>>>>> e94c64ad9784d598e94549c1184ad478d7a470e2
     background-size: cover;
 }
 .logo{
@@ -84,11 +78,10 @@ li a {
     position: relative;
     left: 24%;
     border:5px solid rgb(0, 0, 0);
-<<<<<<< HEAD
-=======
+
 }
 a:hover{
     font-size:larger;
     color:aqua;
->>>>>>> e94c64ad9784d598e94549c1184ad478d7a470e2
+    
 }
