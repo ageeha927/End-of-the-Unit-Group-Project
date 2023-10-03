@@ -20,6 +20,7 @@
               <li><a href="./duck(gallery).html">Gallery</a></li>
               <li><a href="./EndofUnit.html">List of Services</a></li>
               <li><a href="./duck(submit).html">Ordering Service</a></li>
+                <li><input type="text" placeholder="Search.."></li>
             </ul>
         </nav>
         <form action="" method="post">
@@ -124,20 +125,14 @@
                 <label for="birthday">Birthday:</label>
                 <input type="date" id="birthday" name="birthday">
               </p>
-              <p>
-                <input type="submit" onclick="clicked(event)" />
-              </p>
           </section>
         </form>
-        <script>
-          function clicked(e)
-          {
-              if(!confirm('You have successfully submitted your order')) {
-                  e.preventDefault();
-              }
-          }
-          </script>
           <br>
+        <div class="buttoncenter">
+              <a href="./index.html">
+                  <button>Submit Order</button>
+              </a>
+        </div>
           <br>
           <br>
 </body>
