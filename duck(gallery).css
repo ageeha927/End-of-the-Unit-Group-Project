@@ -5,19 +5,54 @@ body{
     background-size: cover;
     padding:10px;
   display: grid;
-  grid-template-columns:[yy] 1fr [R] 1fr [B] 1fr [G];
-  grid-template-rows: 10% 1fr 1fr 1fr 20% [last];
+  grid-template-columns:[yy] 1fr [R] 1fr [rr] 1fr [B];
+  grid-template-rows: [A] 10% [B] 1fr [C] 1fr [D] 1fr [G] 20% [last];
 }
 
   nav{
-    grid-column: yy / G ;
+    grid-column: yy / B ;
     float: left;
   }
 
   footer{
-    grid-column: yy / G;
+    grid-column: yy / B;
     grid-row: last;
   }
-  .topnav{
-    
+  
+  .pic2{
+    display: grid;
+    grid-column: yy / R;
+    grid-row: B / C;
+    justify-items: center;
+    align-items:center;
+  }
+
+  .pic3{
+    display: grid;
+    grid-column: R / rr;
+    grid-row: B / C;
+    justify-items: center;
+    align-items:center;
+  }
+
+  .pic4{
+    display: grid;
+    grid-column: rr / B;
+    grid-row: B / C;
+    justify-items: center;
+    align-items:center;
+  }
+  .pic5{
+    display: grid;
+    grid-column: R / rr;
+    grid-row: C / D;
+    justify-items: center;
+    align-items:center;
+  }
+  .pic6{
+    display: grid;
+    grid-column: rr / B;
+    grid-row: C / D;
+    justify-items: center;
+    align-items:center;
   }
