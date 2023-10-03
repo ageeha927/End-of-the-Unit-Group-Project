@@ -125,9 +125,19 @@
                 <label for="birthday">Birthday:</label>
                 <input type="date" id="birthday" name="birthday">
               </p>
+              <p>
+                  <input type="submit" onclick="clicked(event)" />
+              </p>
           </section>
         </form>
-<input type="submit" onclick="return confirm('Are you sure?')" />
+<script>
+function clicked(e)
+{
+    if(!confirm('Are you sure?')) {
+        e.preventDefault();
+    }
+}
+</script>
                       <br>
                       <br>
                       <br>
