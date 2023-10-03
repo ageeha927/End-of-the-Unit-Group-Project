@@ -23,128 +23,117 @@
                 <li><input type="text" placeholder="Search.."></li>
             </ul>
         </nav>
-        <form action="" method="post">
+    <form action="./duck(gallery).html" method="POST" onsubmit="return confirm('Thank you for you Order!');">
             <h1>Payment Form</h1>
-            <p>Required fields are followed by<strong><abbr title="required">*</abbr></strong></p>
-            <h2>Contact Information</h2>
-              <p>
-                <label for="fname">
-                  <span>First Name:</span>
-                  <strong><abbr title="required">*</abbr></strong>
-                </label>
-                <input type="text" id="fname" name="fname">
-              </p>
-              <p>
-                <label for="lname">
-                  <span>Last Name:</span>
-                  <strong><abbr title="required">*</abbr></strong>
-                </label>
-                <input type="text" id="lname" name="lname">
-              </p>
-              <p>
-                <label for="mail">
-                  <span>E-Mail:</span>
-                  <strong><abbr title="required">*</abbr></strong>
-                </label>
-                <input type="email" name="usermail" id="mail">
-              </p>
-              <p>
-                <label for="password">
-                  <span>Password:</span>
-                  <strong><abbr title="required">*</abbr></strong>
-                </label>
-                <input type="password" name="password" id="pwd">
-              </p>
-              <p>
-                <label for="state">
-                  <span>State:</span>
-                  <strong><abbr title="required">*</abbr></strong>
-                </label>
-                <input type="state" name="state" id="state">
-              </p>
-              <p>
-                <label for="city">
-                  <span>City:</span>
-                  <strong><abbr title="required">*</abbr></strong>
-                </label>
-                <input type="city" name="city" id="city">
-              </p>
-              <p>
-                <label for="zip">
-                  <span>Zip Code:</span>
-                  <strong><abbr title="required">*</abbr></strong>
-                </label>
-                <input type="zip" name="zip" id="zip">
-              </p>
-              <selection>
-              <h2>Payment Information</h2>
-              <p>
-                <label for="card">
-                  <span>Card Type:</span>
-                </label>
-                <select name="usercard" id="card">
-                  <option value="Visa">Visa</option>
-                  <option value="Mastercard">Mastercard</option>
-                  <option value="Discovers">Discover</option>
-                  <option value="AmericanExpress">American Express</option>
-                </select>
-              </p>
-              <p>
-                <label for="number">
-                  <span>Card Number:</span>
-                  <strong><abbr title="required">*</abbr></strong>
-                </label>
-                <input type="tel" id="number" name="cardnumber">
-              </p>
-        
-            </section>
-          </form>
-          <selection>
-            <h2>Order Information</h2>
-            <p>
-              <label for="number">
-                <span>Order Quanity:</span>
-                <strong><abbr title="required">*</abbr></strong>
-              </label>
-              <input type="tel" id="number" name="ducknumber">
-            </p>
-            <p>
-                <label for="address">
-                  <span>Shipping Address:</span>
-                  <strong><abbr title="required">*</abbr></strong>
-                </label>
-                <input type="tel" id="address" name="addressshipping">
-              </p>
-              <p>
-                <label for="apartment">
-                  <span>Apartment, Suite number, etc(optional)</span>
-                </label>
-                <input type="tel" id="apartment" name="apartmentshipping">
-              </p>
-              <p>
-                <label for="birthday">Birthday:</label>
-                <input type="date" id="birthday" name="birthday">
-              </p>
-              <div id="my_form">
-  <p>This is my first part of the form.</p>
-  <button id="nextStep">Submit</button>
-</div>
-<div id="thank_you" style="display: none;">
-  <p>Thanks for filling up the form!</p>
-  <button type="submit">Close</button>
-</div>
-              <script>
-  var nextStep = document.querySelector('#nextStep');
-
-  nextStep.addEventListener('click', function (e) {
-    e.preventDefault();
-    // Hide first view
-    document.getElementById('my_form').style.display = 'none';
-
-    // Show thank you message element
-    document.getElementById('thank_you').style.display = 'block';
-  });
-</script>
+                <p>Required fields are followed by<strong><abbr title="required">*</abbr></strong></p>
+                    <h2>Contact Information</h2>
+                        <p>
+                            <label for="fname">
+                            <span>First Name:</span>
+                            <strong><abbr title="required">*</abbr></strong>
+                            </label>
+                            <input type="text" id="fname" name="fname">
+                        </p>
+                        <p>
+                            <label for="lname">
+                            <span>Last Name:</span>
+                            <strong><abbr title="required">*</abbr></strong>
+                            </label>
+                            <input type="text" id="lname" name="lname">
+                        </p>
+                        <p>
+                            <label for="mail">
+                            <span>E-Mail:</span>
+                            <strong><abbr title="required">*</abbr></strong>
+                            </label>
+                            <input type="email" name="usermail" id="mail">
+                        </p>
+                        <p>
+                            <label for="password">
+                            <span>Password:</span>
+                            <strong><abbr title="required">*</abbr></strong>
+                            </label>
+                            <input type="password" name="password" id="pwd">
+                        </p>
+                        <p>
+                            <label for="state">
+                            <span>State:</span>
+                            <strong><abbr title="required">*</abbr></strong>
+                            </label>
+                            <input type="state" name="state" id="state">
+                        </p>
+                        <p>
+                            <label for="city">
+                            <span>City:</span>
+                            <strong><abbr title="required">*</abbr></strong>
+                            </label>
+                            <input type="city" name="city" id="city">
+                        </p>
+                        <p>
+                            <label for="zip">
+                            <span>Zip Code:</span>
+                            <strong><abbr title="required">*</abbr></strong>
+                            </label>
+                            <input type="zip" name="zip" id="zip">
+                        </p>
+                    <h2>Payment Information</h2>
+                        <p>
+                            <label for="card">
+                            <span>Card Type:</span>
+                            </label>
+                            <select name="usercard" id="card">
+                            <option value="Visa">Visa</option>
+                            <option value="Mastercard">Mastercard</option>
+                            <option value="Discovers">Discover</option>
+                            <option value="AmericanExpress">American Express</option>
+                            </select>
+                        </p>
+                        <p>
+                            <label for="number">
+                            <span>Card Number:</span>
+                            <strong><abbr title="required">*</abbr></strong>
+                            </label>
+                            <input type="tel" id="number" name="cardnumber">
+                        </p>
+                    <h2>Order Information</h2>
+                        <p>
+                        <label for="number">
+                            <span>Order Quanity:</span>
+                            <strong><abbr title="required">*</abbr></strong>
+                        </label>
+                        <input type="tel" id="number" name="ducknumber">
+                        </p>
+                        <p>
+                            <label for="address">
+                            <span>Shipping Address:</span>
+                            <strong><abbr title="required">*</abbr></strong>
+                            </label>
+                            <input type="tel" id="address" name="addressshipping">
+                        </p>
+                        <p>
+                            <label for="apartment">
+                            <span>Apartment, Suite number, etc(optional)</span>
+                            </label>
+                            <input type="tel" id="apartment" name="apartmentshipping">
+                        </p>
+                        <p>
+                            <label for="birthday">Birthday:</label>
+                            <input type="date" id="birthday" name="birthday">
+                        </p>
+        <button type="submit">Submit</button>
+      </form>
+                    <script>
+        var nextStep = document.querySelector('#nextStep');
+      
+        nextStep.addEventListener('click', function (e) {
+          e.preventDefault();
+          // Hide first view
+          document.getElementById('my_form').style.display = 'none';
+      
+          // Show thank you message element
+          document.getElementById('thank_you').style.display = 'block';
+        });
+      </script>
                       <br>
                       <br>
                       <br>
